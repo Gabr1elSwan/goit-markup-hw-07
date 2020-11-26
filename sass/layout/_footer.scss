@@ -1,0 +1,173 @@
+.fon{
+    background: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.logo-address{
+    font-style: normal;
+}
+
+.adres{
+margin-top: 20px;
+margin-bottom: 9px;
+
+font-family: 'Roboto', sans-serif;
+font-weight:400;
+font-size: 14px;
+line-height:1.714;
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+
+
+.footer-inform-link-email{
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height:1.714;
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-inform-link-tel{
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height:1.714;
+letter-spacing: 0.03em;
+    
+color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-information{
+    margin-left: 54px;
+
+    &-two{
+        display: flex;
+    }
+}
+
+
+.title-footer{
+    font-family: 'Roboto', sans-serif;
+    font-style: 400;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    
+    color: #FFFFFF;
+    }
+
+    .footer-social-list{
+        display: flex;
+        justify-content: space-between;
+
+        &-svg{
+        width: 20px;
+        height: 20px;
+        fill:#FFFFFF;  
+        }
+        
+    }
+    
+    
+    .footer-social-list-link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.1);
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
+        &:hover{
+            background-color: #2196F3;
+        }
+    }
+    
+    
+    .footer-social{
+        margin-left: 55px;
+
+        &-list-item{
+            margin-right: 10px;
+        }
+    }
+    
+
+.footer-intormation-info{
+margin-bottom: 20px;
+font-family: 'Roboto', sans-serif;
+font-style: 400;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.142;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.container-footer{
+    display: flex;
+}
+
+.footer-intormation-telegram{
+    
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 12px;
+width: 200px;
+height: 50px;
+
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+
+font-family: 'Roboto', sans-serif;
+font-style: 400;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.875;
+
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+cursor: pointer;
+outline: none;
+
+}
+
+.footer-intormation-email{
+padding-left: 16px;
+width: 358px;
+height: 50px;
+
+border: 1px solid rgba(255, 255, 255, 0.3);
+box-sizing: border-box;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+background: #2F303A;
+outline: none;
+color: rgba(255, 255, 255, 0.6);    
+}
+
+.footer-intormation-aircraft{
+    width: 22px;
+    height: 22px;
+    margin-left: 10px;
+}

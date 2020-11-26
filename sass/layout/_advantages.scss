@@ -1,0 +1,80 @@
+.list-item-sputnik::before{
+    background-image: url("../icon/sputnik.svg");
+}
+
+.list-item-clock::before{
+    background-image: url("../icon/clock.svg");
+}
+
+.list-item-noyt::before{
+    background-image: url("../icon/noyt.svg");
+}
+
+.list-item-kosmonavt::before{
+    background-image: url("../icon/kosmonavt.svg");
+}
+
+.advantages{
+padding-top: 94px;  
+padding-bottom: 47px;
+}
+
+
+.advantages-list{
+    display: flex;
+    align-items: center;
+
+    &-item-title{
+        margin: 0;
+        margin-bottom: 10px;
+        
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.142;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        
+        color: #212121;
+    }
+    
+}
+
+
+.advantages-list-item{
+    margin-right: 30px;
+
+    &:last-child{
+        margin-right: 0;
+    }
+
+    &::before{
+        content: "";
+        display: block;
+        width: 270px;
+        height: 120px;
+        background-color: rgba(245, 244, 250, 1);
+        margin-bottom: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+
+.dvantages-list-item-title{
+    margin-right: 30px;
+}
+
+
+.advantages-list-item-position{
+margin: 0;
+
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+

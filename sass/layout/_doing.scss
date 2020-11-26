@@ -1,0 +1,45 @@
+.doing{
+    padding-bottom: 94px;
+    padding-top: 47px;
+      
+}
+
+.doing-list{
+    display: flex;
+    align-items: center; 
+
+    &-item{
+        position: relative;
+        margin-right: 30px;
+    }
+
+    &-item:last-child{
+        margin-right: 0;
+    }
+    }
+
+    .doing-list-item-verh{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(47, 48, 58, 0.8);
+    padding: 27px;
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1,143;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+    }
+    
+    
+    
+    
